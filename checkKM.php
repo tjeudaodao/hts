@@ -29,7 +29,7 @@ if (!isset($_SESSION['checkKM'])) {
 					<a href="index.php" class="col-1"><i class="fas fa-chevron-left"></i></a>
 					<p class="col-6">Dữ liệu mới nhất ngày: </p>
 					<strong class="col-4 text-danger"><p id="ngaycapnhat"></p></strong>
-				</div>
+				</div> <!-- phan hien thi thong tin du lieu cap nhat moi nhat -->
 				<div class="my-1" id="khoinhap">
 					<input type="text" name="barcode" placeholder="Nhập barcode" class="form-control berongnhapBarcode" id="barcode" onclick="this.value='';">
 					<div>
