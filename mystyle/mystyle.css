@@ -1,0 +1,116 @@
+input[type=text]{
+	border-radius: 25px;
+}
+button[type=submit] {
+		border-radius: 20px;
+	}
+.center {
+	display: flex;
+	text-align: center;
+	align-items: center;
+	justify-content: center;
+}
+.centerMain{
+	min-height: 100vh;
+}
+.duoicung {
+	position: fixed;
+	bottom: 10px;
+	text-align: center;
+}
+.main {
+	min-width: 300px;
+	max-width: 600px;
+	background-color: white;
+	margin: 8px auto; 
+}
+.masp {
+	display: inline-block;
+	width: 180px;
+	text-align: center;
+}
+.scan {
+	min-width: 70%;
+	max-width: 90%;
+	height: 60px;
+	font-size: 25px;
+}
+div#khoinhap div, div#khoinhap input{
+	display: inline-block;
+}
+.noidung {
+	border-radius: 5%;
+}
+#interactive.viewport {
+	position: relative; 
+	width: 100%; 
+	height: auto; 
+	overflow: hidden; 
+	text-align: center;
+}
+#interactive.viewport > canvas, #interactive.viewport > video {
+	max-width: 100%;
+	width: 100%;
+}
+canvas.drawing, canvas.drawingBuffer {
+	position: absolute; 
+	left: 0; 
+	top: 0;
+}
+
+@media screen and (min-width: 320px) {
+    .noidung {
+    	height: 80px;
+    }
+    .fontchu {
+    	font-size: 40px;
+    }
+    button[type=button] {
+		border-radius: 10px;
+	}
+	.berongnhapBarcode {
+		width: 40%;
+	}
+}
+@media screen and (min-width: 360px) {
+    .noidung {
+    	height: 120px;
+    }
+    .fontchu {
+    	font-size: 45px;
+    }
+    button[type=button] {
+		border-radius: 15px;
+	}
+	.berongnhapBarcode {
+		width: 50%;
+	}
+}
+@media screen and (min-width: 384px) {
+    .noidung {
+    	height: 130px;
+    }
+    .fontchu {
+    	font-size: 50px;
+    }
+    button[type=button] {
+		border-radius: 15px;
+	}
+	.berongnhapBarcode {
+		width: 55%;
+	}
+}
+@media screen and (min-width: 412px) {
+    .noidung {
+    	height: 150px;
+    }
+    .fontchu {
+    	font-size: 55px;
+    }
+    button[type=button] {
+		border-radius: 15px;
+	}
+	.berongnhapBarcode {
+		width: 60%;
+	}
+}
